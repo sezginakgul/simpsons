@@ -1,7 +1,12 @@
 import React from "react";
+import Simpson from "../components/Simpson";
 
 const Details = () => {
-  return <div>Details</div>;
+  return (
+    <div>
+      <Simpson />
+    </div>
+  );
 };
 
 export default Details;

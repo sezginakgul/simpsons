@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const CharacterForm = () => {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
   const [sendData, setSendData] = useState({
     name: "",
     avatar: "",
@@ -27,7 +27,7 @@ const CharacterForm = () => {
       "Simpsons",
       JSON.stringify([sendData, ...storageData])
     );
-    // navigate("/");
+    navigate("/");
   };
 
   return (

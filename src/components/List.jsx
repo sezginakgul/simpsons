@@ -25,7 +25,7 @@ const List = () => {
   }, []);
 
   useEffect(() => {
-    if (!storageData.length) {
+    if (!storageData?.length) {
       getData();
     }
   }, []);

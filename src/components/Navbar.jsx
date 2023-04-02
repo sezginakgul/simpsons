@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <nav className=" d-flex justify-content-between px-3 align-items-center">
-      {window.location.href === "http://localhost:3000/" ? (
+      {window.location.href === "https://thesimpsons.vercel.app/" ? (
         <div className="fw-bold">
           <i
             className="fa-solid fa-house fa-bounce fa-2xl me-1"
